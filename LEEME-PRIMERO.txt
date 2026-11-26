@@ -1,0 +1,13 @@
+PUNTO DE VENTA — PAQUETE COMPLETO PARA SUPABASE
+
+1) Descomprime este ZIP. No subas el ZIP pequeño puntoventa4-main.zip que tiene solo README y una consulta SQL.
+2) Abre supabase-config.js con Bloc de notas.
+3) En SUPABASE_ANON_KEY reemplaza PEGA_AQUI_TU_CLAVE_PUBLICABLE por tu clave Publishable que comienza por sb_publishable_. No compartas la clave Secret/service_role.
+4) Guarda con Ctrl+S.
+5) Sube TODOS los archivos de esta carpeta juntos a tu hosting (por ejemplo Netlify Drop). No subas solo index.html ni una carpeta interior vacía.
+6) Abre index.html desde la dirección HTTPS que entregue el hosting.
+
+La URL del proyecto ya está configurada: https://tlpfgkildgymaunyejs.supabase.co
+La tabla public.pos_app_data ya fue confirmada en tu proyecto. No necesitas volver a crearla para esta prueba.
+
+IMPORTANTE: el SQL inicial de este paquete usa permisos abiertos para facilitar una prueba sin login de Supabase Auth. No uses datos reales de clientes o ventas hasta implementar autenticación y políticas RLS por usuario/negocio.
